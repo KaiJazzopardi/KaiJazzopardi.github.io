@@ -1,0 +1,97 @@
+*{
+text-decoration: none;
+font-family: Arial, Helvetica, sans-serif;
+color: black;
+}
+
+.navbar {
+    background-image: url(/Assets/Images/pexels-liger-pham-1108701.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+    padding: .5em;
+    height: 609px;
+}
+
+.navbar .container {
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.navbar-nav {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.navbar-nav li {
+    padding: .5em;
+    margin: 0 .5em;
+}
+
+.navbar-nav li a{
+    color: white;
+}
+
+.nav-bar-brand{
+    color: white;
+    padding-left: 2em;
+    font-size: 20px;
+}
+
+.hero-motto{
+    position: absolute;
+    bottom: 100px;
+    padding-left: 400px;
+color: white;
+font-weight: lighter;
+font-size: 20px;
+}
+
+.container .row .col-6 .about-header{
+    margin: 500px;
+}
+
+.container .about h1{
+    text-align: center;
+    padding-top: 2em;
+}
+
+.container .about p{
+    text-align: center;
+    padding-top: 2em;
+    width: 500px;
+    margin: auto;
+}
+
+.container .about .button {
+    display: block;
+    margin: auto;
+    background-color: white;
+    border: none;
+    padding: 2rem;
+}
+
+/* Add this CSS to the existing styles */
+.container .image-section {
+    text-align: center;
+    padding-top: 2em; /* Adjust as needed */
+  }
+  
+  .container .image-section img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .container .image-section .landscape-image {
+    /* Additional styling for the landscape image */
+    margin: auto;
+    width: 885px;
+  }
+  
+
+
+
