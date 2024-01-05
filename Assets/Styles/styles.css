@@ -13,6 +13,16 @@ color: black;
     height: 609px;
 }
 
+.navbarNOIMAGE {
+  padding: .5em;
+}
+
+.navbarNOIMAGE .container {
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+}
+
 .navbar .container {
     display: flex;
     align-items:center;
