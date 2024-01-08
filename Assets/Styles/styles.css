@@ -23,6 +23,23 @@ color: black;
   justify-content: space-between;
 }
 
+.navbar-nav-NOIMAGE {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.navbar-nav-NOIMAGE li {
+  padding: .5em;
+  margin: 0 .5em;
+}
+
+
+.nav-bar-brand-NOIMAGE{
+  padding-left: 2em;
+  font-size: 20px;
+}
+
 .navbar .container {
     display: flex;
     align-items:center;
@@ -147,6 +164,7 @@ footer a{
     color: white;
     padding-right: 5px;
   }
+  
   
 
 
