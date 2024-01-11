@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+width: 100%;
+height: 500px; /* Adjust the height as needed */
+background: url(/Assets/Images/pexels-david-bartus-1166209.jpg);
+background-position: bottom;
+background-size: cover; /* Add this line to ensure the image covers the entire header */
+text-align: center;
+color: #fff;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+h2 {
+
+    text-align: center;
+    padding-top: 2rem;
+    font-size: 40px;
+    
+
+}
+
+h1 {
+    margin: 0;
+    font-size: 2px;
+}
+
+.article-details {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+article {
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
+    text-align: justify;
+    line-height: 1.6;
+}
