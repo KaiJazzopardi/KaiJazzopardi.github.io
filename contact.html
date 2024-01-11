@@ -49,155 +49,103 @@
             <div class="col-8">
                 <main>
                     
-                    <form 
-                    action="mailto:admin@gamesnet.com"
-                    method="post"
-                    enctype="text/plain"
-                    class="contact-form">
+                    <form action="mailto:admin@photonet.com" method="post" enctype="text/plain" class="contact-form">
                     
-                    <div class="container">
-                        
-                        <!--Name Surname-->
-                        <div class="row">
-                            <div class="col-6">
-                                <label for="first-name-input">First Name</label>
-                                <input type="text"
-                                id="first-name-input"
-                                name="first-name"
-                                placeholder="First name"
-                                required
-                                >
-                            </div>
-                            <div class="col-6">
-                                <label for="last-name-input">Last Name</label>
-                                <input type="text"
-                                id="last-name-input"
-                                name="last-name"
-                                placeholder="Last name"
-                                required>
-                            </div>
-                        </div>   
-                        
-                        <!--Email-->
-                        <div class="row">
-                            <div class="col-12">
-                                <label for="email-address-input">Email Address</label>
-                                <input type="text"
-                                id="email-address-input"
-                                name="email-adress"
-                                placeholder="email@gmail.com"
-                                required>
-                            </div>
-                        </div>
-                        
-                        <!--Topic Dropdown-->
-                        <div class="row">
-                            <div class="col-12">
-                                <label for="topic-dropdown">Topic</label>
-                                <select name="topic" 
-                                id="topic-dropdown"
-                                required>
-                                
-                                <option></option>
-                                
-                                <option value="tech-support">
-                                    Technical Support
-                                </option>
-                                
-                                <option value="submit-review">
-                                    Submit Photo Review
-                                </option>
-                                
-                                <option value="website-problem">
-                                    Website Problem
-                                </option>
-                                
-                            </select>
-                        </div>
-                    </div>
-                    
-                    <!--Subject-->
-                    <div class="row">
-                        <div class="col-12">
-                            <label for="subject-input">
-                                Subject
-                            </label>
-                            <input type="text"
-                            id="subject-input"
-                            name="subject"
-                            placeholder="Subject"
-                            required>
-                        </div>
-                    </div>
-                    
-                    <!--Message-->
-                    <div class="row">
-                        <div class="col-12">
-                            <label for="message-input">
-                                Message
-                                <textarea 
-                                name="Message" 
-                                id="message-input" 
-                                cols="30" 
-                                rows="10"
-                                required
-                                ></textarea>
-                            </div>
-                        </div>
-                        
-                        <!--Form Buttom-->
-                        <div class="row">
-                            <div class="col-6">
-                                <button type="submit" class="button">
-                                    Send
-                                </button>
+                        <div class="container">
+                            
+                            <!--Name Surname-->
+                            <div class="row">
+                                <div class="col-6">
+                                    <label for="first-name-input">First Name</label>
+                                    <input type="text" id="first-name-input" name="first-name" placeholder="First name" required>
+                                </div>
+                                <div class="col-6">
+                                    <label for="last-name-input">Last Name</label>
+                                    <input type="text" id="last-name-input" name="last-name" placeholder="Last name" required>
+                                </div>
+                            </div>   
+                            
+                            <!--Email-->
+                            <div class="row">
+                                <div class="col-12">
+                                    <label for="email-address-input">Email Address</label>
+                                    <input type="text" id="email-address-input" name="email-address" placeholder="email@gmail.com" required>
+                                </div>
                             </div>
                             
-                            <div class="col-6">
-                                <button type="reset" class="button clear" >
-                                    Cancel
-                                </button>
+                            <!--Topic Dropdown-->
+                            <div class="row">
+                                <div class="col-12">
+                                    <label for="topic-dropdown">Topic</label>
+                                    <select name="topic" id="topic-dropdown" required>
+                                        <option></option>
+                                        <option value="tech-support">Technical Support</option>
+                                        <option value="submit-review">Submit Photo Review</option>
+                                        <option value="website-problem">Website Problem</option>
+                                    </select>
+                                </div>
+                            </div>
+                            
+                            <!--Subject-->
+                            <div class="row">
+                                <div class="col-12">
+                                    <label for="subject-input">Subject</label>
+                                    <input type="text" id="subject-input" name="subject" placeholder="Subject" required>
+                                </div>
+                            </div>
+                            
+                            <!--Message-->
+                            <div class="row">
+                                <div class="col-12">
+                                    <label for="message-input">Message</label>
+                                    <textarea name="Message" id="message-input" cols="30" rows="10" required></textarea>
+                                </div>
+                            </div>
+                            
+                            <!--Form Buttom-->
+                            <div class="row">
+                                <div class="col-6">
+                                    <button type="submit" class="button">Send</button>
+                                </div>
+                                
+                                <div class="col-6">
+                                    <button type="reset" class="button clear">Cancel</button>
+                                </div>
                             </div>
                             
                         </div>
                         
-                    </div>
+                    </form>                
+                </main>
+            </div>
+            
+            <!--Side bar-->
+            <div class="col-4">
+                <div class="contact-details">
+                    <h3>Snail Mail</h3>
+                    <p>
+                        42
+                        <br>
+                        Triq il Kbira
+                        <br>
+                        Sliema
+                    </p>
                     
-                </form>                
-            </main>
-        </div>
-        
-        
-        <!--Side bar-->
-        <div class="col-4">
-            <div class="contact-details">
-                <h3>Snail Mail</h3>
-                <p>
-                    1, PhotoNet,
-                    <br>
-                    Triq il Kbira
-                    <br>
-                    Mosta
-                </p>
-                
-                <hr>
-                
-                <h3>Email</h3>
-                <a href="mailto:info@gamesnet.com">photonetwork@outlook.com</a>
+                    <hr>
+                    
+                    <h3>Email</h3>
+                    <a href="mailto:info@gamesnet.com">photonetwork@outlook.com</a>
+                </div>
             </div>
         </div>
     </div>
 </div>
-
-
-
 
 <footer>
     <div class="container">
         &copy;2023, John Buhagiar
     </div>
 </footer>
-
 
 </body>
 </html>
